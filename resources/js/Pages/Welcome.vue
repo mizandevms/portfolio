@@ -2,7 +2,7 @@
 	<app-layout>
 		<section class="bg-primaryColor">
 			<div class="max-w-5xl mx-auto">
-				<div class="grid grid-cols-2 gap-x-6 justify-center items-center py-6 relative">
+				<div class="flex flex-col-reverse px-4 sm:grid grid-cols-2 gap-x-6 justify-center items-center py-6 relative">
 					<article class="text-white col-span-1 space-y-3">
 						<span class="text-xl sm:text-4xl capitalize" style="font-family: Pacifico"> Hello Listener,</span>
 						<h1 class="text-xl sm:text-4xl"><span> I'm</span> <strong>Mizanur Rahman Mizan</strong></h1>
@@ -12,7 +12,7 @@
 						<img class="h-[27rem] w-auto object-cover mx-auto" src=" /images/me.jpg" alt="" />
 					</figure>
 					<!-- arrow sign -->
-					<figure class="absolute bottom-16 left-0 right-0">
+					<figure class="hidden sm:block absolute bottom-16 left-0 right-0">
 						<img class="h-24 w-auto object-cover mx-auto transform -rotate-45" src=" /images/icon/arrow.png" alt="" />
 					</figure>
 				</div>
@@ -20,11 +20,11 @@
 		</section>
 
 		<!-- projects slide -->
-		<section class="curveBg h-auto pb-8">
+		<section class="px-4 sm:px-0 curveBg h-auto pb-8">
 			<div class="container mx-auto overflow-hidden">
 				<h1 class="flex flex-col space-y-3">
-					<span class="text-sm text-white italic font-medium">PROJECTS WORKING PROCESS</span>
-					<span class="text-4xl text-secondaryColor font-extrabold">LASTEST <span class="text-white"> WORKING</span> PROJECT</span>
+					<span class="text-xs sm:text-sm text-secondaryColor sm:text-white italic font-medium">PROJECTS WORKING PROCESS</span>
+					<span class="text-2xl sm:text-4xl text-secondaryColor font-extrabold">LASTEST <span class="text-secondaryColor sm:text-white"> WORKING</span> PROJECT</span>
 				</h1>
 				<Slider3D :slide="slide" />
 			</div>
@@ -35,7 +35,7 @@
 			<section class="relative z-10">
 				<!-- skill & language -->
 				<section class="container mx-auto">
-					<div class="flex justify-evenly items-center gap-6">
+					<div class="flex flex-col sm:flex-row justify-evenly items-center gap-6">
 						<div class="px-8">
 							<h1 class="text-2xl sm:text-4xl font-medium capitalize text-cyan-700 py-4" style="font-family: Pacifico">SKILLS</h1>
 							<div class="flex items-center">
@@ -172,24 +172,24 @@
 				</section>
 
 				<!-- job experience -->
-				<section class="container mx-auto">
+				<section class="container mx-auto px-4 sm:px-0">
 					<h1 class="text-2xl sm:text-4xl font-medium capitalize italic text-primaryColor py-4" style="font-family: Pacifico">Job <span class="text-secondaryColor">experience</span></h1>
 
-					<div class="grid grid-cols-2 gap-24 justify-center items-center">
+					<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-12 sm:gap-24 justify-center items-center">
 						<figure class="relative">
 							<img class="relative h-72 w-full rounded-md border border-primaryColor p-2 shadow-md" src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
 
-							<div class="absolute top-10 -right-20 flex flex-col space-y-3 justify-start">
-								<span class="py-3 px-6 text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer">
-									<img class="h-8 w-16 object-contain" src="/images/icon/primex.svg" alt="" />
+							<div class="absolute sm:top-10 -bottom-10 sm:bottom-0 right-0 sm:-right-20 flex flex-col space-y-3 justify-start">
+								<span class="py-1 sm:py-3 px-6 text-xs sm:text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer">
+									<img class="h-8 w-12 sm:w-16 object-contain" src="/images/icon/primex.svg" alt="" />
 									Primex Information System Limited</span
 								>
-								<span class="py-3 px-6 text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer">
-									<img class="h-8 w-16 object-contain" src=" /images/icon/mistrisolutions.jpg" alt="" />
+								<span class="py-1 sm:py-3 px-6 text-xs sm:text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer">
+									<img class="h-8 w-12 sm:w-16 object-contain" src=" /images/icon/mistrisolutions.jpg" alt="" />
 									Mistri Solutions</span
 								>
-								<span class="py-3 px-6 text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer">
-									<img class="h-10 w-16 object-contain" src="/images/icon/amharc-techLogo.png" alt="" />
+								<span class="py-1 sm:py-3 px-6 text-xs sm:text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer">
+									<img class="h-10 w-12 sm:w-16 object-contain" src="/images/icon/amharc-techLogo.png" alt="" />
 									AmharcTech <span class="text-xs">(Contractual)</span></span
 								>
 							</div>
@@ -211,57 +211,57 @@
 				</section>
 
 				<!-- demo Image -->
-				<figure class="h-96 w-auto mx-auto py-8 flex justify-around items-center">
+				<figure class="h-52 sm:h-96 w-auto mx-auto py-8 flex justify-around items-center">
 					<img class="h-full w-auto" src=" /images/demo/4884158.jpg" alt="" />
 					<img class="h-full w-auto" src=" /images/demo/6FNX.gif" alt="" />
 				</figure>
 			</section>
 		</section>
-		<section class="curvebg3">
+		<section class="curvebg3 px-4 sm:px-0">
 			<!-- scm,socials -->
-			<div class="container mx-auto grid grid-cols-3 justify-center gap-4 py-8">
+			<div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 sm:justify-center gap-4 py-8">
 				<!-- scm -->
-				<div class="text-center">
-					<h1 class="text-2xl font-bold italic capitalize text-primaryColor py-2" style="font-family: Pacifico">Supply Chain Managemen <span class="text-secondaryColor">(SCM)</span></h1>
+				<div class="text-left sm:text-center">
+					<h1 class="text-lg sm:text-2xl font-bold italic capitalize text-primaryColor py-2" style="font-family: Pacifico">Supply Chain Managemen <span class="text-secondaryColor">(SCM)</span></h1>
 					<div class="flex justify-center gap-6 items-center py-3">
 						<figure>
-							<img class="h-20 w-auto mx-auto pb-2" src="/images/icon/github.png" alt="" />
-							<a href="https://github.com/mizandevms" class="text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Github</a>
+							<img class="h-12 sm:h-20 w-auto mx-auto pb-2" src="/images/icon/github.png" alt="" />
+							<a href="https://github.com/mizandevms" class="text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Github</a>
 						</figure>
 						<figure>
-							<img class="h-20 w-auto mx-auto pb-2" src="/images/icon/bitbucket.png" alt="" />
-							<a href="https://bitbucket.org/mizandev" class="text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Bitbucket</a>
+							<img class="h-12 sm:h-20 w-auto mx-auto pb-2" src="/images/icon/bitbucket.png" alt="" />
+							<a href="https://bitbucket.org/mizandev" class="text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Bitbucket</a>
 						</figure>
 					</div>
 				</div>
 				<!-- Runtime Environment -->
-				<div class="text-center">
-					<h1 class="text-2xl font-bold italic capitalize text-primaryColor py-2" style="font-family: Pacifico">Runtime Environmen</h1>
+				<div class="text-left sm:text-center">
+					<h1 class="textlg sm:text-2xl font-bold italic capitalize text-primaryColor py-2" style="font-family: Pacifico">Runtime Environmen</h1>
 					<div class="flex justify-center gap-6 items-center py-3">
 						<figure>
-							<img class="h-20 w-auto mx-auto pb-2" src="/images/icon/linux.png" alt="" />
-							<h1 class="text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Linux OS</h1>
+							<img class="h-12 sm:h-20 w-auto mx-auto pb-2" src="/images/icon/linux.png" alt="" />
+							<h1 class="text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Linux OS</h1>
 						</figure>
 						<figure>
-							<img class="h-20 w-auto mx-auto pb-2" src="/images/icon/windows.png" alt="" />
-							<h1 class="text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Windows OS</h1>
+							<img class="h-12 sm:h-20 w-auto mx-auto pb-2" src="/images/icon/windows.png" alt="" />
+							<h1 class="text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3" style="font-family: Pacifico">Windows OS</h1>
 						</figure>
 					</div>
 				</div>
 				<!-- Scans -->
-				<div class="text-center">
-					<h1 class="text-2xl font-bold italic capitalize text-primaryColor py-2" style="font-family: Pacifico">More Links Please Scan</h1>
+				<div class="text-left sm:text-center">
+					<h1 class="text-lg sm:text-2xl font-bold italic capitalize text-primaryColor py-2" style="font-family: Pacifico">More Links Please Scan</h1>
 					<div class="grid grid-cols-2 justify-center gap-4 items-center">
 						<figure class="text-center">
 							<img class="h-36 w-auto mx-auto pb-2" src="../../../public/images/icon/Mizanur_Rahman_Mizan.png" alt="" />
-							<h1 class="text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center">
+							<h1 class="text-base sm:text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center">
 								<img class="h-8 w-8 object-contain" src="../../../public/images/icon/contact-info.png" alt="" />
 								Contact Info
 							</h1>
 						</figure>
 						<figure class="text-center">
 							<img class="h-36 w-auto mx-auto pb-2" src="../../../public/images/icon/My_Social_Media_Page.png" alt="" />
-							<h1 class="text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center">
+							<h1 class="text-base sm:text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center">
 								<img class="h-8 w-8 object-contain" src="../../../public/images/icon/social-media.png" alt="" />
 								Socials
 							</h1>
@@ -272,14 +272,14 @@
 		</section>
 
 		<!-- Education -->
-		<section class="container mx-auto">
+		<section class="container mx-auto px-4 sm:px-0">
 			<h1 class="text-2xl sm:text-4xl font-medium capitalize italic text-primaryColor py-4" style="font-family: Pacifico">Education</h1>
-			<div class="relative h-96 w-full">
-				<figure class="relative h-full w-full">
+			<div class="relative h-auto sm:h-96 w-full">
+				<figure class="hidden sm:block relative h-full w-full">
 					<img class="relative rounded-md shadow-md h-full w-full object-cover" src="https://images.unsplash.com/20/cambridge.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80" alt="" />
 					<div class="absolute rounded-md shadow-md inset-0 h-full w-full bg-primaryColor opacity-70"></div>
 				</figure>
-				<div class="absolute inset-0 h-full w-full grid grid-cols-3 gap-8 justify-center text-white p-8">
+				<div class="sm:absolute inset-0 h-full w-full grid grid-cols-1 sm:grid-cols-3 gap-y-6 sm:gap-8 justify-center text-gray-700 sm:text-white sm:p-8">
 					<div class="col-span-1 flex flex-col space-y-3 relative">
 						<div class="relative h-full w-full">
 							<img class="h-20 w-20 object-contain" src=" /images/icon/undraw_education_f8ru.svg" alt="" />
@@ -294,21 +294,21 @@
 						<div class="flex items-center gap-x-2">
 							<img class="h-14 w-14 object-contain p-1 border border-white rounded-full" src="/images/icon/uap.png" alt="" />
 							<div class="flex-1 flex-col space-y-2">
-								<h1 class="text-2xl font-semibold">University Of Asia Pacific || From 2016 - 2020</h1>
+								<h1 class="text-lg sm:text-2xl font-semibold">University Of Asia Pacific || From 2016 - 2020</h1>
 								<span class="text-sm">Graduated Bsc from Computer Science and Engineering. || CGPA-3.36</span>
 							</div>
 						</div>
 						<div class="flex items-center gap-x-2">
 							<img class="h-14 w-14 object-contain p-1 border border-white rounded-full" src="/images/icon/college.jpg" alt="" />
 							<div class="flex flex-col space-y-2">
-								<h1 class="text-2xl font-semibold">Palashbari Government College || 2015</h1>
+								<h1 class="text-lg sm:text-2xl font-semibold">Palashbari Government College || 2015</h1>
 								<span class="text-sm">Passed H.S.C || GPA – 4.58</span>
 							</div>
 						</div>
 						<div class="flex items-center gap-x-2">
 							<img class="h-14 w-14 object-contain p-1 border border-white rounded-full" src="/images/icon/sm.jpg" alt="" />
 							<div class="flex flex-col space-y-2">
-								<h1 class="text-2xl font-semibold">Palashbari S.M pilot High School || 2013</h1>
+								<h1 class="text-lg sm:text-2xl font-semibold">Palashbari S.M pilot High School || 2013</h1>
 								<span class="text-sm">Passed S.S.C || GPA – 5.00</span>
 							</div>
 						</div>
@@ -317,21 +317,21 @@
 			</div>
 		</section>
 
-		<section class="curvebg2">
+		<section class="curvebg2 px-4 sm:px-0">
 			<div class="container mx-auto py-8">
 				<!-- <h1 class="text-2xl font-bold italic text-center capitalize text-primaryColor py-2" style="font-family: Pacifico">For a qualified website</h1> -->
 				<figure class="flex justify-around items-center">
-					<img class="h-80 w-auto mx-auto" src=" /images/demo/7Cff.gif" alt="" />
-					<img class="h-80 w-auto mx-auto" src=" /images/demo/4491464.jpg" alt="" />
+					<img class="h-28 sm:h-80 w-auto mx-auto" src=" /images/demo/7Cff.gif" alt="" />
+					<img class="h-28 sm:h-80 w-auto mx-auto" src=" /images/demo/4491464.jpg" alt="" />
 				</figure>
 			</div>
 
 			<!-- awards -->
 			<section class="container mx-auto py-8 border border-primaryColor p-4 bg-gray-100 rounded-md shadow-md mt-12">
-				<div class="grid grid-cols-5 gap-4">
+				<div class="grid grid-cols-1 sm:grid-cols-5 gap-4">
 					<div class="col-span-2">
 						<h1 class="text-2xl sm:text-4xl font-medium capitalize text-primaryColor py-4" style="font-family: Pacifico">Award & Achivements</h1>
-						<ul class="text-xl text-gray-600 font-medium space-y-3">
+						<ul class="text-lg sm:text-xl text-gray-600 font-medium space-y-3">
 							<li class="flex justify-start gap-x-2">
 								<img class="h-8 w-8 object-contain" src="/images/icon/award.png" alt="" />
 								Academic Achievement Certificate in Dean’s Award List In 1st semester
@@ -356,14 +356,14 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-span-3 flex gap-4 h-96 w-full">
+					<div class="col-span-3 flex flex-col sm:flex-row gap-4 h-auto sm:h-96 w-full">
 						<div class="col-span-1 h-full w-full relative">
 							<img class="h-full w-full object-cover rounded-sm relative" src="/images/1642265639313.JPG" alt="" />
 							<div class="absolute bottom-0 bg-gray-900 opacity-70 py-4 h-auto w-full text-center">
 								<span class="text-sm text-white font-semibold">With National Professor Dr. Jamilur Reza Choudhury</span>
 							</div>
 						</div>
-						<div class="col-span-1 h-full w-full grid grid-rows-2 gap-4">
+						<div class="col-span-1 h-full w-full grid grid-cols-1 sm:grid-rows-2 gap-4">
 							<div class="h-full w-full relative">
 								<img class="h-full w-full object-cover rounded-sm" src="/images/dean.jpg" alt="" />
 								<div class="absolute bottom-0 bg-gray-900 opacity-70 py-4 h-auto w-full text-center">

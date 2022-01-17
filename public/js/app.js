@@ -26305,7 +26305,7 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "max-w-5xl mx-auto"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "grid grid-cols-2 gap-x-6 justify-center items-center py-6 relative"
+    "class": "flex flex-col-reverse px-4 sm:grid grid-cols-2 gap-x-6 justify-center items-center py-6 relative"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("article", {
     "class": "text-white col-span-1 space-y-3"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
@@ -26324,7 +26324,7 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
     src: " /images/me.jpg",
     alt: ""
   })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" arrow sign "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", {
-    "class": "absolute bottom-16 left-0 right-0"
+    "class": "hidden sm:block absolute bottom-16 left-0 right-0"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     "class": "h-24 w-auto object-cover mx-auto transform -rotate-45",
     src: " /images/icon/arrow.png",
@@ -26335,7 +26335,7 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_2 = {
-  "class": "curveBg h-auto pb-8"
+  "class": "px-4 sm:px-0 curveBg h-auto pb-8"
 };
 var _hoisted_3 = {
   "class": "container mx-auto overflow-hidden"
@@ -26345,11 +26345,11 @@ var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "flex flex-col space-y-3"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "text-sm text-white italic font-medium"
+    "class": "text-xs sm:text-sm text-secondaryColor sm:text-white italic font-medium"
   }, "PROJECTS WORKING PROCESS"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "text-4xl text-secondaryColor font-extrabold"
+    "class": "text-2xl sm:text-4xl text-secondaryColor font-extrabold"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("LASTEST "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "text-white"
+    "class": "text-secondaryColor sm:text-white"
   }, " WORKING"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" PROJECT")])], -1
   /* HOISTED */
   );
@@ -26375,7 +26375,7 @@ var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
     "class": "container mx-auto"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "flex justify-evenly items-center gap-6"
+    "class": "flex flex-col sm:flex-row justify-evenly items-center gap-6"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "px-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
@@ -26548,7 +26548,7 @@ var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_9 = {
-  "class": "container mx-auto"
+  "class": "container mx-auto px-4 sm:px-0"
 };
 
 var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
@@ -26565,7 +26565,7 @@ var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_11 = {
-  "class": "grid grid-cols-2 gap-24 justify-center items-center"
+  "class": "grid grid-cols-1 sm:grid-cols-2 gap-y-12 sm:gap-24 justify-center items-center"
 };
 
 var _hoisted_12 = /*#__PURE__*/_withScopeId(function () {
@@ -26576,23 +26576,23 @@ var _hoisted_12 = /*#__PURE__*/_withScopeId(function () {
     src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "absolute top-10 -right-20 flex flex-col space-y-3 justify-start"
+    "class": "absolute sm:top-10 -bottom-10 sm:bottom-0 right-0 sm:-right-20 flex flex-col space-y-3 justify-start"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "py-3 px-6 text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer"
+    "class": "py-1 sm:py-3 px-6 text-xs sm:text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-8 w-16 object-contain",
+    "class": "h-8 w-12 sm:w-16 object-contain",
     src: "/images/icon/primex.svg",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Primex Information System Limited")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "py-3 px-6 text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer"
+    "class": "py-1 sm:py-3 px-6 text-xs sm:text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-8 w-16 object-contain",
+    "class": "h-8 w-12 sm:w-16 object-contain",
     src: " /images/icon/mistrisolutions.jpg",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mistri Solutions")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "py-3 px-6 text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer"
+    "class": "py-1 sm:py-3 px-6 text-xs sm:text-sm text-white bg-primaryColor w-full rounded-md border border-gray-50 flex justify-end items-center gap-x-2 hover:translate-x-3 transition-all duration-500 cursor-pointer"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-10 w-16 object-contain",
+    "class": "h-10 w-12 sm:w-16 object-contain",
     src: "/images/icon/amharc-techLogo.png",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" AmharcTech "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
@@ -26621,7 +26621,7 @@ var _hoisted_18 = {
 
 var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", {
-    "class": "h-96 w-auto mx-auto py-8 flex justify-around items-center"
+    "class": "h-52 sm:h-96 w-auto mx-auto py-8 flex justify-around items-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     "class": "h-full w-auto",
     src: " /images/demo/4884158.jpg",
@@ -26637,13 +26637,13 @@ var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
-    "class": "curvebg3"
+    "class": "curvebg3 px-4 sm:px-0"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" scm,socials "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "container mx-auto grid grid-cols-3 justify-center gap-4 py-8"
+    "class": "container mx-auto grid grid-cols-1 sm:grid-cols-3 sm:justify-center gap-4 py-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" scm "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "text-center"
+    "class": "text-left sm:text-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-2xl font-bold italic capitalize text-primaryColor py-2",
+    "class": "text-lg sm:text-2xl font-bold italic capitalize text-primaryColor py-2",
     style: {
       "font-family": "Pacifico"
     }
@@ -26652,56 +26652,56 @@ var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   }, "(SCM)")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "flex justify-center gap-6 items-center py-3"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-20 w-auto mx-auto pb-2",
+    "class": "h-12 sm:h-20 w-auto mx-auto pb-2",
     src: "/images/icon/github.png",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: "https://github.com/mizandevms",
-    "class": "text-xl text-center font-bold italic capitalize text-primaryColor py-3",
+    "class": "text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3",
     style: {
       "font-family": "Pacifico"
     }
   }, "Github")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-20 w-auto mx-auto pb-2",
+    "class": "h-12 sm:h-20 w-auto mx-auto pb-2",
     src: "/images/icon/bitbucket.png",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     href: "https://bitbucket.org/mizandev",
-    "class": "text-xl text-center font-bold italic capitalize text-primaryColor py-3",
+    "class": "text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3",
     style: {
       "font-family": "Pacifico"
     }
   }, "Bitbucket")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Runtime Environment "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "text-center"
+    "class": "text-left sm:text-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-2xl font-bold italic capitalize text-primaryColor py-2",
+    "class": "textlg sm:text-2xl font-bold italic capitalize text-primaryColor py-2",
     style: {
       "font-family": "Pacifico"
     }
   }, "Runtime Environmen"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "flex justify-center gap-6 items-center py-3"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-20 w-auto mx-auto pb-2",
+    "class": "h-12 sm:h-20 w-auto mx-auto pb-2",
     src: "/images/icon/linux.png",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-xl text-center font-bold italic capitalize text-primaryColor py-3",
+    "class": "text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3",
     style: {
       "font-family": "Pacifico"
     }
   }, "Linux OS")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-20 w-auto mx-auto pb-2",
+    "class": "h-12 sm:h-20 w-auto mx-auto pb-2",
     src: "/images/icon/windows.png",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-xl text-center font-bold italic capitalize text-primaryColor py-3",
+    "class": "text-base sm:text-xl text-center font-bold italic capitalize text-primaryColor py-3",
     style: {
       "font-family": "Pacifico"
     }
   }, "Windows OS")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Scans "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "text-center"
+    "class": "text-left sm:text-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-2xl font-bold italic capitalize text-primaryColor py-2",
+    "class": "text-lg sm:text-2xl font-bold italic capitalize text-primaryColor py-2",
     style: {
       "font-family": "Pacifico"
     }
@@ -26714,7 +26714,7 @@ var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
     src: _public_images_icon_Mizanur_Rahman_Mizan_png__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center"
+    "class": "text-base sm:text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     "class": "h-8 w-8 object-contain",
     src: _public_images_icon_contact_info_png__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -26726,7 +26726,7 @@ var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
     src: _public_images_icon_My_Social_Media_Page_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center"
+    "class": "text-base sm:text-xl font-bold capitalize text-cyan-700 flex justify-center gap-x-2 items-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     "class": "h-8 w-8 object-contain",
     src: _public_images_icon_social_media_png__WEBPACK_IMPORTED_MODULE_4__["default"],
@@ -26738,16 +26738,16 @@ var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
-    "class": "container mx-auto"
+    "class": "container mx-auto px-4 sm:px-0"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "text-2xl sm:text-4xl font-medium capitalize italic text-primaryColor py-4",
     style: {
       "font-family": "Pacifico"
     }
   }, "Education"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "relative h-96 w-full"
+    "class": "relative h-auto sm:h-96 w-full"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", {
-    "class": "relative h-full w-full"
+    "class": "hidden sm:block relative h-full w-full"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     "class": "relative rounded-md shadow-md h-full w-full object-cover",
     src: "https://images.unsplash.com/20/cambridge.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80",
@@ -26755,7 +26755,7 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "absolute rounded-md shadow-md inset-0 h-full w-full bg-primaryColor opacity-70"
   })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "absolute inset-0 h-full w-full grid grid-cols-3 gap-8 justify-center text-white p-8"
+    "class": "sm:absolute inset-0 h-full w-full grid grid-cols-1 sm:grid-cols-3 gap-y-6 sm:gap-8 justify-center text-gray-700 sm:text-white sm:p-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "col-span-1 flex flex-col space-y-3 relative"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -26777,7 +26777,7 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "flex-1 flex-col space-y-2"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-2xl font-semibold"
+    "class": "text-lg sm:text-2xl font-semibold"
   }, "University Of Asia Pacific || From 2016 - 2020"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "text-sm"
   }, "Graduated Bsc from Computer Science and Engineering. || CGPA-3.36")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -26789,7 +26789,7 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "flex flex-col space-y-2"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-2xl font-semibold"
+    "class": "text-lg sm:text-2xl font-semibold"
   }, "Palashbari Government College || 2015"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "text-sm"
   }, "Passed H.S.C || GPA – 4.58")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -26801,7 +26801,7 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "flex flex-col space-y-2"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-2xl font-semibold"
+    "class": "text-lg sm:text-2xl font-semibold"
   }, "Palashbari S.M pilot High School || 2013"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "text-sm"
   }, "Passed S.S.C || GPA – 5.00")])])])])])], -1
@@ -26811,23 +26811,23 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
-    "class": "curvebg2"
+    "class": "curvebg2 px-4 sm:px-0"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "container mx-auto py-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <h1 class=\"text-2xl font-bold italic text-center capitalize text-primaryColor py-2\" style=\"font-family: Pacifico\">For a qualified website</h1> "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("figure", {
     "class": "flex justify-around items-center"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-80 w-auto mx-auto",
+    "class": "h-28 sm:h-80 w-auto mx-auto",
     src: " /images/demo/7Cff.gif",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "h-80 w-auto mx-auto",
+    "class": "h-28 sm:h-80 w-auto mx-auto",
     src: " /images/demo/4491464.jpg",
     alt: ""
   })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" awards "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
     "class": "container mx-auto py-8 border border-primaryColor p-4 bg-gray-100 rounded-md shadow-md mt-12"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "grid grid-cols-5 gap-4"
+    "class": "grid grid-cols-1 sm:grid-cols-5 gap-4"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "col-span-2"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
@@ -26836,7 +26836,7 @@ var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
       "font-family": "Pacifico"
     }
   }, "Award & Achivements"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", {
-    "class": "text-xl text-gray-600 font-medium space-y-3"
+    "class": "text-lg sm:text-xl text-gray-600 font-medium space-y-3"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
     "class": "flex justify-start gap-x-2"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -26869,7 +26869,7 @@ var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
     src: "/images/icon/award.png",
     alt: ""
   }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Vice president, Math Club, CSE-UAP, Fall 2019 ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "col-span-3 flex gap-4 h-96 w-full"
+    "class": "col-span-3 flex flex-col sm:flex-row gap-4 h-auto sm:h-96 w-full"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "col-span-1 h-full w-full relative"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -26881,7 +26881,7 @@ var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "text-sm text-white font-semibold"
   }, "With National Professor Dr. Jamilur Reza Choudhury")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "col-span-1 h-full w-full grid grid-rows-2 gap-4"
+    "class": "col-span-1 h-full w-full grid grid-cols-1 sm:grid-rows-2 gap-4"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "h-full w-full relative"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
